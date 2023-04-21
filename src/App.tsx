@@ -1,7 +1,7 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { BiTrash } from  'react-icons/bi'
+import { BsGithub, BsInstagram, BsLinkedin } from  'react-icons/bs'
 
 function App() {
 
@@ -18,7 +18,13 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <h1>CodePontoTech</h1>
-        <BiTrash/>
+       
+      </div>
+      <div className="box-social-links">
+        <a href="https://www.linkedin.com/in/felipemoreirafrontend/" target="_blank" rel="Linkedin"><BsLinkedin/></a>
+        <a href="https://www.instagram.com/fmomoreira/" target="_blank" rel="Intagram"><BsInstagram/></a>
+        <a href="https://github.com/fmomoreira/" target="_blank" rel="Github"><BsGithub/></a>
+        
       </div>
     </>
   )
