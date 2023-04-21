@@ -17,7 +17,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <h1>Welcome CodePontoTech</h1>
+        <h1>CodePontoTech</h1>
         <BiTrash/>
       </div>
     </>
